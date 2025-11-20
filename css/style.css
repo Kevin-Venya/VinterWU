@@ -1,0 +1,26 @@
+#container{nmmnjkkhjnmkkknkmm 
+    grid-template-columns: 27.5%, 65%;
+    grid-template-rows: 15%, 60%, 15%;
+    grid-template-areas: 
+    "hd, hd"
+    "nv, mn"
+    "ft, ft";
+    margin: 2.5%;
+    
+}
+
+#hd{
+    background-color: orange
+}
+
+#nv{
+    background-color: orange
+}
+
+#mn{
+    background-color: orange
+}
+
+#ft{
+    background-color: orange
+}
