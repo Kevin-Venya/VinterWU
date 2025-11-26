@@ -1,26 +1,37 @@
-#container{nmmnjkkhjnmkkknkmm 
-    grid-template-columns: 27.5%, 65%;
-    grid-template-rows: 15%, 60%, 15%;
+#container{
+    background-color: black;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 27.5% 70%;
+    grid-template-rows: 15% 65% 15%;
     grid-template-areas: 
-    "hd, hd"
-    "nv, mn"
-    "ft, ft";
-    margin: 2.5%;
-    
+    "hd hd"
+    "nv mn"
+    "ft ft";
+    gap: 2.5%;
+    overflow: hidden;
 }
 
-#hd{
-    background-color: orange
+header{
+    background-color: #9b59b6;
+    display: grid;
+    grid-area: hd;
 }
 
-#nv{
-    background-color: orange
+nav{
+    background-color: #9b59b6;
+    display: grid;
+    grid-area: nv;
 }
 
-#mn{
-    background-color: orange
+main{
+    background-color: #9b59b6;
+    display: grid; 
+    grid-area: mn;
 }
 
-#ft{
-    background-color: orange
+footer{
+    background-color: #9b59b6;
+    display: grid; 
+    grid-area: ft;
 }
